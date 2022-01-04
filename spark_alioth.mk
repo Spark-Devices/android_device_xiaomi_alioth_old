@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The Havoc-OS
+# Copyright (C) 2021 The Spark-OS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -9,13 +9,13 @@
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 
-# Inherit some common Havoc-OS stuff.
+# Inherit some common Spark-OS stuff.
 
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/spark/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 
-PRODUCT_NAME := havoc_alioth
+PRODUCT_NAME := spark_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_BRAND := POCO
 PRODUCT_MANUFACTURER := Xiaomi
@@ -26,5 +26,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_SCREEN_DENSITY := 450
 TARGET_BOOT_ANIMATION_RES := 1080
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

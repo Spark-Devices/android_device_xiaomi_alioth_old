@@ -27,7 +27,7 @@ TARGET_RECOVERY_DEVICE_MODULES := libinit_alioth
 # Kernel
 
 TARGET_KERNEL_SOURCE := kernel/xiaomi/alioth
-TARGET_KERNEL_CONFIG := alioth_defconfig
+TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 
 # Manifest
 
